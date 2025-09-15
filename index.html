@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="mni">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+<title>Meetei Mayek Replacer — Offline-ready</title>
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css" />
+<meta name="theme-color" content="#0b1220">
+</head>
+<body>
+<main class="app">
+<header class="topbar">
+<div class="brand">ꯃꯤꯇꯩ-ꯃꯌꯦꯛ Replacer</div>
+<div class="actions">
+<button id="syncBtn" title="Sync / save to device">Sync</button>
+<button id="helpBtn" title="Help">?</button>
+</div>
+</header>
+
+
+<section class="content">
+<div class="col left">
+<label class="label">Input (paste text)</label>
+<textarea id="inputText" placeholder="Paste Meetei Mayek text here" autocorrect="off" autocomplete="off" spellcheck="false"></textarea>
+
+
+<div class="controls">
+<button id="replaceBtn">Replace</button>
+<button id="clearBtn" class="ghost">Clear</button>
+<button id="downloadOutputBtn" class="ghost">Download</button>
+</div>
+
+
+<label class="label">Dictionary - quick add</label>
+<div class="row">
+<input id="addFrom" placeholder="From (old)" />
+<input id="addTo" placeholder="To (new)" />
+<button id="addPairBtn">Add</button>
+</div>
+
+
+<details class="panel">
+<summary>Dictionary management</summary>
+<div class="panel-body">
+<div class="row small">
+<input type="file" id="fileInput" accept="application/json" />
+<button id="mergeBtn">Merge JSON</button>
+<button id="exportBtn">Export JSON</button>
+</div>
+<div class="status-row">
+<div id="dictCount">Entries: 0</div>
+<div id="lastSynced">Last synced: never</div>
+</div>
+
+
+<div class="search-area">
+</html>
