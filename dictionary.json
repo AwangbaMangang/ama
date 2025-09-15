@@ -1,0 +1,8 @@
+{
+"pairs": [
+{ "from": "ꯅꯣꯪ", "to": "ꯅꯣꯡ" },
+{ "from": "ꯑꯣ", "to": "ꯑꯣꯡ" },
+{ "from": "ꯀꯨ", "to": "ꯀꯨꯡ" }
+],
+"meta": { "version": "2025-09-15", "notes": "Initial sample dictionary" }
+}
